@@ -1,5 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+const addTwoNumbers = (a,b)=>{
+  return function(){
+  let initial = a + b;
+  console.log(initial)
+  }
+}
+const newAddTwoNumbers  = addTwoNumbers (3,4);
+newAddTwoNumbers ();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
